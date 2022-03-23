@@ -1,9 +1,10 @@
 (()=>{
-    function greeter (person: string) {
-        return 'Hello, ' + person
+    function showMessage (msg: String) {
+        return '窗前明月光, '+ msg 
       }
       
-      let user = 'yes   '
+      let user = '疑是地上霜'
+      // let user = '疑是地上霜'
       
-      console.log(greeter(user))
+      console.log(showMessage(user))
 })()
